@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Chronometer
+        android:id="@+id/chr_main_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="60dp"/>
+
+    <ToggleButton
+        android:id="@+id/tog_main_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textOff="on"
+        android:textOn="off"/>
+
+    <Button
+        android:id="@+id/btn_main_rest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rest"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
